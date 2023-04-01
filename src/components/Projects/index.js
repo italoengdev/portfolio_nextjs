@@ -81,7 +81,7 @@ function Projects() {
             <ProjectCard
               imgPath={Outsystems2}
               isBlog={false}
-              title="TicketApp - Seu app de Passagens - Outsystems"
+              title="CRUD Fullstack"
               description="This is a sample application built on Next.js and Tailwind CSS that allows users to perform CRUD operations on an API built on Django. The application is deployed on Vercel."
               ghLink="https://github.com/italoengdev/django_api_frontend"
               demoLink="https://django-api-frontend.vercel.app/"

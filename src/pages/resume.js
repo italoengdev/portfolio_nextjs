@@ -1,8 +1,10 @@
-import Resume from "../components/Resume/ResumeNew";
-
-
-export default function Resumepage() {
+import Resume from '../components/Resume/ResumeNew'
+import Navbar from '../components/Navbar.js'
+export default function Projectpage() {
   return (
-    <Resume/>
+    <div>
+      <Navbar />
+      <Resume />
+    </div>
   )
 }

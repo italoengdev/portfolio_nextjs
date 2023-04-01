@@ -1,4 +1,3 @@
-
 import { Container, Row, Col } from 'react-bootstrap'
 import ProjectCard from './ProjectCards'
 import interview from '../../public/Assets/Projects/1-interview.png'
@@ -16,7 +15,6 @@ import Outsystems2 from '../../public/Assets/Projects/outsystems2.png'
 function Projects() {
   return (
     <Container fluid className="project-section">
-
       <Container>
         <h1 className="project-heading">
           Meus <strong className="light-blue">Projetos </strong>
@@ -72,21 +70,21 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Outsystems1}
-              isBlog={true}
-              title="OSMDb - Rent a Movie - Outsystems"
-              description="Dentre as features desenvolvidas, temos: Screens Creation, Entity Relationships, Form Validations, Security and Exceptions, Blocks and Events, Search Features and Pagination.Como desafio adicionei posters e fotos dos atores/diretores através do consumo da API do themoviedb.org. Entre usando o usuário Guest"
-              ghLink="https://personal-zb1xdx9h.outsystemscloud.com/OSMDb_isg/"
-              demoLink="https://personal-zb1xdx9h.outsystemscloud.com/OSMDb_isg/"
+              isBlog={false}
+              title="Alkabot Blog"
+              description="A aplicação é uma lista de usuários e posts com comentários consumida a partir da API pública JSONPlaceholder. Ao clicar em um usuário da lista, é possível ver mais informações sobre ele, incluindo nome, username, email, telefone, website, endereço e informações da empresa. Ao clicar nos Posts é possível ver os comentários e informações de quem os fez."
+              ghLink="https://github.com/italoengdev/testefrontendjr"
+              demoLink="https://testefrontendjr.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Outsystems2}
-              isBlog={true}
+              isBlog={false}
               title="TicketApp - Seu app de Passagens - Outsystems"
-              description="App desenvolvido a partir de uma regra de negócios em um projeto final de um Bootcamp. CRUD, condicionais, validações entre outras features foram implementadas. Entre usando o usuário Guest"
-              ghLink="https://personal-zb1xdx9h.outsystemscloud.com/TicketApp/"
-              demoLink="https://personal-zb1xdx9h.outsystemscloud.com/TicketApp/"
+              description="This is a sample application built on Next.js and Tailwind CSS that allows users to perform CRUD operations on an API built on Django. The application is deployed on Vercel."
+              ghLink="https://github.com/italoengdev/django_api_frontend"
+              demoLink="https://django-api-frontend.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">

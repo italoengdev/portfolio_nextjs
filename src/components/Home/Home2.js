@@ -11,7 +11,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: '2.6em' }}>
-              <span className="light-blue"> FALANDO </span> UM POUCO SOBRE MIM
+              <span className="light-blue">FALANDO </span> UM POUCO SOBRE MIM
             </h1>
             <p className="home-about-body">
               <br /> Sempre tive paixão por Tecnologia e Informática e com a
@@ -34,21 +34,21 @@ function Home2() {
               </i>
               e{' '}
               <i>
-                <b className="light-blue">Low-Code </b>&nbsp;
+                <b className="light-blue">Back-End</b>&nbsp;
               </i>{' '}
               futuramente pretendo me aprofundar mais nos estudos e me tornar um
               desenvolvedor <b className="light-blue">Fullstack.</b>
               <br />
               <br />
               Tenho me aprimorado em várias tecnologias e minhas preferidas são{' '}
-              <b className="light-blue">Outsystems</b> ,{' '}
+              <b className="light-blue">TailwindCSS</b> ,{' '}
               <b className="light-blue">Bootstrap</b> e
               <i>
-                <b className="light-blue"> Frameworks Javascript</b>
+                <b className="light-blue"> Frameworks</b>
               </i>
               &nbsp; como
               <i>
-                <b className="light-blue"> React.js </b>e{' '}
+                <b className="light-blue"> Django </b>e{' '}
                 <b className="light-blue">Next.js</b>
               </i>
             </p>

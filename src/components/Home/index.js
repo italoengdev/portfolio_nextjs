@@ -31,7 +31,7 @@ function Home() {
               </h1>
                 
               <div className="name-wrapper">
-                <h1 className="heading-name">Eu sou </h1>
+                <h1 className="heading-name">Eu sou&nbsp;</h1>
                 <h1 className="main-name">ITALO SARAIVA GONÇALVES</h1>
               </div>
 

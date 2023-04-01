@@ -35,7 +35,7 @@ const Resume = () => {
       <Row>
         <div id="resume-container" style={{ width: '100%', height: '100vh' }}>
           <Document
-            file="../../public/Assets/Currículo - Estágio - italoengdev.pdf"
+            file="https://github.com/italoengdev/portfolio_nextjs/raw/main/src/public/Assets/Curr%C3%ADculo%20-%20Est%C3%A1gio%20-%20italoengdev.pdf"
             onLoadSuccess={onDocumentLoadSuccess}
           >
             <Page pageNumber={pageNumber} />
@@ -52,7 +52,7 @@ const Resume = () => {
       >
         <Button
           variant="primary"
-          href="/assets/Currículo - Estágio - italoengdev.pdf"
+          href="https://github.com/italoengdev/portfolio_nextjs/raw/main/src/public/Assets/Curr%C3%ADculo%20-%20Est%C3%A1gio%20-%20italoengdev.pdf"
           download
         >
           <AiOutlineDownload />

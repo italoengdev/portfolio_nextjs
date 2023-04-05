@@ -29,10 +29,18 @@ function Home() {
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 <i>{`<Hello World!/>`}</i>
               </h1>
-                
-              <div className="name-wrapper">
-                <h1 className="heading-name">Eu sou&nbsp;</h1>
-                <h1 className="main-name">ITALO SARAIVA GONÇALVES</h1>
+
+              <div className="name-wrapper row">
+                <div className="col-12 col-md-4">
+                  <h1 className="heading-name text-center text-md-end">
+                    Eu sou&nbsp;
+                  </h1>
+                </div>
+                <div className="col-12 col-md-8 mt-2 ml-3">
+                  <h2 className="main-name text-center text-md-start">
+                    ITALO SARAIVA GONÇALVES
+                  </h2>
+                </div>
               </div>
 
               <div style={{ padding: 50, textAlign: 'left' }}>

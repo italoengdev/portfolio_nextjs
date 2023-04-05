@@ -260,6 +260,7 @@ button:focus {
 }
 
 .main-name {
+  margin-left: 1rem;
   display: inline-block;
   color: #03faeb;
 }

@@ -5,6 +5,7 @@ import {
   SiVercel,
   SiMicrosoftexcel
 } from 'react-icons/si'
+import {TiSocialGithubCircular} from 'react-icons/ti'
 import Image from 'next/image'
 import OutsystemsImg from '../../public/Assets/outsystems.png'
 import RevitImg from '../../public/Assets/revit.png'
@@ -23,6 +24,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel title="Vercel" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <TiSocialGithubCircular title="GitHub CoPilot" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <Image

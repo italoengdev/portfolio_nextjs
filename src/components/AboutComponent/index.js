@@ -3,6 +3,7 @@ import Github from './Github'
 import Techstack from './Techstack'
 import Aboutcard from './AboutCard'
 import Toolstack from './Toolstack'
+import CarouselComponent from './Carrousel'
 
 import mE from '../../public/Assets/me4.jpeg'
 import Image from 'next/image'
@@ -17,7 +18,7 @@ export default function AboutComponentIndex() {
             style={{ paddingTop: '50px', paddingBottom: '50px' }}
             className="about-img"
           >
-            <Image src={mE} className="img-fluid" />
+            <CarouselComponent/>
           </Col>
           <Col
             md={7}

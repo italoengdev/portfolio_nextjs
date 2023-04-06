@@ -30,16 +30,16 @@ function Home() {
                 <i>{`<Hello World!/>`}</i>
               </h1>
 
-              <div className="name-wrapper row">
+              <div className="row">
                 <div className="col-12 col-md-4">
-                  <h1 className="heading-name text-center text-md-end">
-                    Eu sou&nbsp;
+                  <h1 className="heading-name text-center">
+                    Eu sou
                   </h1>
                 </div>
-                <div className="col-12 col-md-8 mt-2 ml-3">
-                  <h2 className="main-name text-center text-md-start">
+                <div className="col-12 col-md-8 mt-2">
+                  <h1 className="main-name text-center">
                     ITALO SARAIVA GONÇALVES
-                  </h2>
+                  </h1>
                 </div>
               </div>
 

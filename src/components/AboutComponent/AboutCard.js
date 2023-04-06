@@ -18,7 +18,7 @@ function AboutCard() {
             <br/>
             Sou de <span className="purple"> Teresina, Piauí, Brasil.</span>
             <br />
-            Eu sou Desenvolvedor Front-End em formação.
+            Eu sou Desenvolvedor FullStack em formação.
             <br />
             <br />
             Além de estudar desenvolvimento eu também sou fascinado em...
@@ -37,7 +37,7 @@ function AboutCard() {
               <FaSpotify/> <a href='https://open.spotify.com/user/12139226573'>Música</a>
             </li>
           </ul>
-
+          
           <p style={{ color: 'lightblue' }}>
             "Você é o único representante de seu sonho na face da terra!"{' '}
           </p>

@@ -249,20 +249,14 @@ button:focus {
 }
 
 .heading-name {
-  display: inline-block;
   font-family: 'Mukta', sans-serif;
-  font-size: 2.5em !important;
-  padding-left: 45px !important;
-}
-.name-wrapper {
-  display: inline-block;
-  vertical-align: middle;
+  font-size: 2.5em !important
+  
 }
 
 .main-name {
-  margin-left: 1rem;
-  display: inline-block;
   color: #03faeb;
+  font-size: 2.5em !important
 }
 
 .Typewriter__wrapper {

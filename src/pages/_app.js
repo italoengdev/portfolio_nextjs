@@ -2,7 +2,6 @@ import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css'
 import { NextSeo } from 'next-seo'
-import { initGA, logPageView } from '../utils/analytics';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 

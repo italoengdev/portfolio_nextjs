@@ -2,24 +2,9 @@ import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css'
 import { NextSeo } from 'next-seo'
-import { useRouter } from 'next/router';
-import { useEffect } from 'react';
 
 function MyApp({ Component, pageProps }) {
-  const router = useRouter();
-  useEffect(() => {
-    if (!window.GA_INITIALIZED) {
-      initGA();
-      window.GA_INITIALIZED = true;
-    }
-    logPageView();
-
-    router.events.on('routeChangeComplete', logPageView);
-
-    return () => {
-      router.events.off('routeChangeComplete', logPageView);
-    };
-  }, []);
+  
   return (
     <>
       <NextSeo

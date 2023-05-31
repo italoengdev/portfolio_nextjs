@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Preview
+![grab-landing-page](https://github.com/italoengdev/portfolio-italoengdev/blob/master/src/Assets/portcell.png)
+# Portfolio feito em Next-JS
 
-First, run the development server:
+Projeto pessoal desenvolvido para o treino de Layout em várias páginas, estilização com React-Bootstrap, Bootstrap e CSS, Responsividade.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deploy
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+[Portfolio](https://italoengdev.me/)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Autores
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[@italoengdev](https://www.github.com/italoengdev)
 
-## Learn More
+## Funcionalidades
 
-To learn more about Next.js, take a look at the following resources:
+📖 Multi-Page Layout
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🎨 Styled with React-Bootstrap and Css with easy to customize colors
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+📱 Fully Responsive
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Aprendizados
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Aplicação desenvolvida com base em um template Open Source, foram feitas alterações e o objetivo foi entender o desenvolvimento de um site por ReactJS e acrescentar novas features para treino e ganho de experiência.
+
+
+## Melhorias
+
+O projeto foi desenvovido com Bootstrap versão 5.2 o que trouxe boa responsividade e foram adicionadas novas features e uma nova aba de contato.
+
+## Feito Com:
+[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3schools.com/css/)
+[![BOOTSTRAP](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+[![JAVASCRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/)
+[![REACT](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+
+
+### Contato
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/italoengdev/)
+
+<p align="center">Copyright © 2022 Italoengdev</p>

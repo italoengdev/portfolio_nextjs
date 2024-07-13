@@ -1,5 +1,4 @@
 import Projects from "../components/Projects";
-
 import Navbar from '../components/Navbar.js'
 
 

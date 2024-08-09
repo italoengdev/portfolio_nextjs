@@ -12,6 +12,7 @@ import nextjs from '../../public/Assets/Projects/9-nextjs.png'
 import Outsystems1 from '../../public/Assets/Projects/outsystems1.png'
 import Outsystems2 from '../../public/Assets/Projects/outsystems2.png'
 import meni1 from '../../public/Assets/meni.png'
+import pet from '../../public/Assets/petconnect.png'
 
 function Projects() {
   return (
@@ -24,15 +25,26 @@ function Projects() {
           Alguns projetos que venho trabalhando...
         </p>
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+       
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={meni1}
               isBlog={true}
               title="Mení Digital"
-              description="Mení é a solução completa de atendimento e marketing em bares e restaurantes, proporcionando uma nova experiência com ferramentas inteligentes e inovadoras."
+              description="Mení é a solução completa de atendimento e marketing em bares e restaurantes, proporcionando uma nova experiência com ferramentas inteligentes e inovadoras. Desenvolvido em Bubble.io e JavaScript"
               ghLink="https://meni.digital/"
             />
-          </Col><Col md={4} className="project-card">
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pet}
+              isBlog={true}
+              title="PetConnect"
+              description="An app with FlutterFlow, Firebase, Google Cloud, and Meta API for enhanced user experiences"
+              ghLink="https://pet-connect.tech/homepage"
+            />
+          </Col>
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={interview}
               isBlog={false}

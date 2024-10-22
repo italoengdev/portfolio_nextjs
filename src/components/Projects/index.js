@@ -41,7 +41,7 @@ function Projects() {
               isBlog={true}
               title="PetConnect"
               description="An app with FlutterFlow, Firebase, Google Cloud, and Meta API for enhanced user experiences"
-              ghLink="https://pet-connect.tech/homepage"
+              ghLink="https://pet-connect-mvp.flutterflow.app/homepage"
             />
           </Col>
           <Col md={4} className="project-card">

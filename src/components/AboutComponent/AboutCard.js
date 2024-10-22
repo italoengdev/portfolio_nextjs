@@ -18,10 +18,10 @@ function AboutCard() {
             <br/>
             Sou de <span className="purple"> Teresina, Piauí, Brasil.</span>
             <br />
-            Eu sou Desenvolvedor FullStack em formação.
+            Eu sou Desenvolvedor FullStack No-code e Low-code.
             <br />
             <br />
-            Além de estudar desenvolvimento eu também sou fascinado em...
+            Além de desenvolvedor eu também sou fascinado em...
           </p>
           <ul>
             <li className="about-activity">
